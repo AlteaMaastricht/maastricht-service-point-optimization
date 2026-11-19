@@ -228,4 +228,4 @@ with confidence intervals; rebuild the instance from OSM and CBS open data.
 - **Data sources.** The road network is from © OpenStreetMap contributors (ODbL), extracted with OARBench.
   Demographics are from CBS 500 m squares (CC BY 4.0, "Bron: CBS"). No data from either source is
   redistributed here. The course workbook, brief and report are not included.
-- **License:** none chosen yet. The code includes shared team work; see [`docs/CONTRIBUTIONS.md`](docs/CONTRIBUTIONS.md).
+- **License:** MIT — see [`LICENSE`](LICENSE). Contributions are described in [`docs/CONTRIBUTIONS.md`](docs/CONTRIBUTIONS.md).

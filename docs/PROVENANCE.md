@@ -132,3 +132,5 @@ weight and the demand double-counting.
 ## Repository name (18 Nov 2026)
 - Renamed from the working name `postnl-network-optimization` to **`maastricht-service-point-optimization`** (author decision D4). The old name used a carrier brand; the case itself used the fictional "Post&L".
 - The team-case-study framing was replaced by explicit individual / shared / teammates' contribution statements (author decision). See `CONTRIBUTIONS.md`.
+
+- `LICENSE` added (19 Nov 2026, author decision): MIT, copyright 2026 Arthur J. Maarschalkerweerd; README licence line updated.
