@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+# generated outputs
+toy_output*/
+course_output*/
+cleaned/
+# never commit course data or large intermediates
+*.xlsx
+*.pkl
+distance_matrix*.csv
+shortest_paths_optimized*.csv

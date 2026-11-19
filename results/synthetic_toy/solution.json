@@ -1,0 +1,36 @@
+{
+  "n_service_points": 1,
+  "n_apls": 2,
+  "sp_capacity_per_day": 12.274684092390379,
+  "total_capacity_per_day": 132.27468409239037,
+  "unassigned_customers": 0,
+  "multi_assigned_customers": 0,
+  "customers_at_apls": 112,
+  "city_bounce_rate": 0.0,
+  "max_sp_bounce_rate": 0.0,
+  "avg_distance_km": 0.40650828212012663,
+  "open_sp_nodes": [
+    36
+  ],
+  "open_apl_nodes": [
+    130,
+    63
+  ],
+  "cost": {
+    "fixed_sp": 50000.0,
+    "fixed_apl": 1000.0,
+    "capacity": 4828.025969372248,
+    "delivery": 21553.096637029437,
+    "penalty": 0.0,
+    "total": 77381.12260640168
+  },
+  "stats": {
+    "iterations": 2000,
+    "accepted": 1112,
+    "acceptance_rate": 0.556,
+    "seconds": 1.2289988994598389,
+    "final_temperature": 13.572527338047692
+  },
+  "seed": 1,
+  "instance": "synthetic grid 12x12, seed=0"
+}

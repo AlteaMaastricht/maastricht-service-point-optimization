@@ -1,0 +1,67 @@
+================================================================================
+POST&L SENSITIVITY ANALYSIS REPORT
+================================================================================
+
+BASELINE SOLUTION:
+  Total Cost: €2,611,116
+  Service Points: 14
+  APLs: 8
+  Average Distance: 3.19 km
+  City Bounce Rate: 0.0%
+
+PARAMETER SENSITIVITY RESULTS:
+--------------------------------------------------
+
+Parameter: F_SP
+  Cost Range: €2,255,254 - €3,015,192 (29.1% variation)
+  Maximum Impact: 15.5%
+  Best Value: 25000 (€2,255,254)
+  Worst Value: 75000 (€3,015,192)
+
+Parameter: C_hd
+  Cost Range: €1,961,016 - €3,611,899 (63.2% variation)
+  Maximum Impact: 38.3%
+  Best Value: 0.75 (€1,961,016)
+  Worst Value: 2.25 (€3,611,899)
+
+Parameter: BR_sp
+  Cost Range: €2,542,828 - €3,062,217 (19.9% variation)
+  Maximum Impact: 17.3%
+  Best Value: 0.01 (€2,542,828)
+  Worst Value: 0.025 (€3,062,217)
+
+Parameter: BR_cw
+  Cost Range: €2,575,105 - €2,696,625 (4.7% variation)
+  Maximum Impact: 3.3%
+  Best Value: 0.01 (€2,575,105)
+  Worst Value: 0.0125 (€2,696,625)
+
+Parameter: apl_fixed_cost
+  Cost Range: €2,623,851 - €2,931,789 (11.8% variation)
+  Maximum Impact: 12.3%
+  Best Value: 250 (€2,623,851)
+  Worst Value: 500 (€2,931,789)
+
+Parameter: pickup_ratio
+  Cost Range: €2,355,769 - €41,191,336 (1487.3% variation)
+  Maximum Impact: 1477.5%
+  Best Value: 0.655 (€2,355,769)
+  Worst Value: 0.4 (€41,191,336)
+
+ROBUSTNESS ANALYSIS RESULTS:
+--------------------------------------------------
+
+Demand Scenario Robustness:
+  0.7x demand: €2,391,584 (-8.4%)
+  0.8x demand: €2,473,807 (-5.3%)
+  1.0x demand: €2,689,038 (+3.0%)
+  1.1x demand: €3,077,332 (+17.9%)
+  1.3x demand: €3,141,023 (+20.3%)
+  Demand Volatility: 28.7%
+
+Distance Perturbation Robustness:
+  0.0% noise: €2,775,437 (+6.3%)
+  5.0% noise: €2,696,961 (+3.3%)
+  10.0% noise: €120,419,086 (+4511.8%)
+  15.0% noise: €21,792,886 (+734.6%)
+  20.0% noise: €2,875,657 (+10.1%)

@@ -1,0 +1,10 @@
+# Versions used during validation (Python 3.14): numpy, scipy 1.17.1, pandas, networkx, scikit-learn, matplotlib
+numpy
+scipy
+pandas
+networkx        # tests only (reference shortest paths)
+scikit-learn    # analysis/cbs_cleaning.py (kNN imputation)
+matplotlib
+openpyxl        # only for reading .xlsx inputs
+# optional: statsmodels (VIF; a numpy fallback is used if absent)
+# experimental/ only (not needed by the package): gurobipy (licence), ortools

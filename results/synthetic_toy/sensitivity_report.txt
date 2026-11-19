@@ -1,0 +1,74 @@
+================================================================================
+SENSITIVITY ANALYSIS REPORT
+================================================================================
+Instance: synthetic grid 12x12, seed=0  base seed: 1
+
+BASELINE SOLUTION:
+  Total Cost: EUR 72,238
+  Service Points: 1
+  APLs: 1
+  Average Distance: 0.57 km
+  City Bounce Rate: 0.0%
+  Penalty included in cost: EUR 0
+
+PARAMETER SENSITIVITY RESULTS:
+--------------------------------------------------
+
+Parameter: F_SP
+  Cost Range: EUR 43,357 - EUR 99,549 (77.8% variation)
+  Maximum Impact: 40.0%
+  Best Value: 25000 (EUR 43,357)
+  Worst Value: 75000 (EUR 99,549)
+
+Parameter: C_hd
+  Cost Range: EUR 67,342 - EUR 90,837 (32.5% variation)
+  Maximum Impact: 25.7%
+  Best Value: 1.125 (EUR 67,342)
+  Worst Value: 2.25 (EUR 90,837)
+
+Parameter: BR_sp
+  Cost Range: EUR 72,175 - EUR 76,352 (5.8% variation)
+  Maximum Impact: 5.7%
+  Best Value: 0.01 (EUR 72,175)
+  Worst Value: 0.02 (EUR 76,352)
+
+Parameter: BR_cw
+  Cost Range: EUR 68,357 - EUR 82,955 (20.2% variation)
+  Maximum Impact: 14.8%
+  Best Value: 0.0075 (EUR 68,357)
+  Worst Value: 0.005 (EUR 82,955)
+
+Parameter: apl_fixed_cost
+  Cost Range: EUR 68,450 - EUR 77,867 (13.0% variation)
+  Maximum Impact: 7.8%
+  Best Value: 500 (EUR 68,450)
+  Worst Value: 750 (EUR 77,867)
+
+Parameter: pickup_ratio
+  Cost Range: EUR 62,761 - EUR 79,398 (23.0% variation)
+  Maximum Impact: 13.1%
+  Best Value: 0.74 (EUR 62,761)
+  Worst Value: 0.485 (EUR 79,398)
+
+ROBUSTNESS ANALYSIS RESULTS:
+--------------------------------------------------
+
+Demand Scenario Robustness:
+  0.70x demand: EUR 70,780 (-2.0%)
+  0.85x demand: EUR 68,373 (-5.4%)
+  1.00x demand: EUR 79,276 (+9.7%)
+  1.15x demand: EUR 85,125 (+17.8%)
+  1.30x demand: EUR 81,220 (+12.4%)
+  Demand Volatility: 23.2%
+
+Distance Perturbation Robustness:
+  0.0% noise: EUR 78,780 (+9.1%)  penalty EUR 0
+  5.0% noise: EUR 72,396 (+0.2%)  penalty EUR 0
+  10.0% noise: EUR 76,169 (+5.4%)  penalty EUR 0
+  15.0% noise: EUR 76,154 (+5.4%)  penalty EUR 0
+  20.0% noise: EUR 76,308 (+5.6%)  penalty EUR 0
+
+Combined Stress Tests:
+  demand_1.2_noise_10.0%: EUR 82,037
+  demand_0.8_noise_15.0%: EUR 65,104
+  demand_1.3_noise_20.0%: EUR 85,867
